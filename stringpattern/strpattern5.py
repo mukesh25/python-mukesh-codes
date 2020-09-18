@@ -1,11 +1,11 @@
 # write a program to REVERSE internal content of each word?
-#  input = Durga software solutions  
-#  output =sagrud erawtfos snoitulos
+#  input = mukesh software solutions  
+#  output = hsekum erawtfos snoitulos
  
 
 s = input('enter some string to reverse: ')
 l = s.split()	
-print(l)	#['durga','software','solutions']
+print(l)	#['mukesh','software','solutions']
 l1=[]
 for word in l:
 	l1.append(word[::-1])

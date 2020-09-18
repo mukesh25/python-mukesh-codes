@@ -1,6 +1,6 @@
 # write a program to REVERSE content of the given string by using while loop?
-#  str = durga
-#  str = agrud
+#  str = mukesh
+#  str = hsekum
  
 
 s = input('enter some string to reverse: ')
