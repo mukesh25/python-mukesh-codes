@@ -1,0 +1,11 @@
+from faker import Faker
+fake = Faker()
+print('Employee Name :', fake.name())
+print('Employee Name :', fake.first_name())
+print('Employee Name :', fake.last_name())
+print('Employee DOB :', fake.date())
+print('Employee ID :', fake.random_number())
+print('Employee MailId :', fake.mail())
+print('Employee Alternative Number :', fake.random.int(min=0,max=9999))
+print('Employee Role :', fake.random_element(elements=('Software Engineer', 'Team Lead', 'Project Lead', 'Project Manager')))
+print(fake.address())
